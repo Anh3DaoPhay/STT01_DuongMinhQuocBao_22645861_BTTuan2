@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+#div_body {
+    border: 2px solid gray;
+    width: 1060px;
+    height: 950px;
+}
+
+header {
+    border-bottom: 3px solid rgb(197, 127, 35);
+    width: 98%;
+    height: 80px;
+    float: left;
+}
+section {
+    border: 1px;
+    width: 80%;
+    height: 800px;
+    margin-left: 20%;
+    margin-top: 100px;
+}
+nav {
+    border: 2px;
+    width: 18%;
+    height: 865px;
+    background-image: url(/Tuan2/img/back.jpg);
+    float: left;
+}
+footer {
+    border-top: 2px orange solid;
+    height: 48px;
+    width: 80%;
+    margin-left: 20%;
+}
+#article_1{
+    border: 1px;
+    width: 100%;
+    height: 25%;
+
+}
+.menu_nav li{
+    line-height: 30px;
+    width: 165px;
+    list-style: none;
+    text-align: start;
+    margin-left: -20%;
+    border-bottom: 2px dashed rgb(212, 163, 28);
+    padding: 5px;
+}
+.menu_nav li a{
+    color:rgb(100, 24, 171);
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu_nav li a:hover{
+    color: black;
+}
+#ul_article_2{
+    border: 6px solid orange;
+    float: right;
+    width: 320px;
+    height: 300px;
+    margin-right: 30px;
+    margin-top: 20px;
+    color: rgb(124, 38, 38);
+    background-color: rgb(237, 224, 172);
+}
+#ul_article_2>li{
+    font-size: 20px;
+}
+h1{
+    font-size: 25px;
+    color: orange;
+    text-align: left;
+    margin-left: -40px;
+}
+.gar{
+    font-size: 22px;
+    color: rgb(124, 38, 38);
+    padding: 9.5px;
+}h2{
+    font-size: 30px;
+    color: orange;
+    margin-left: -10x;
+}

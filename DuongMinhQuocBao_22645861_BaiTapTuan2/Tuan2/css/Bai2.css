@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+#div_big{
+    max-width: 70%;
+    margin: 0 auto;
+    font-size: 20px;
+    box-shadow: 5px 10px 10px #888888,-5px -10px 10px #888888;
+    padding: 20px 20px 10px 20px;
+}
+.header{
+    background: url(/Tuan2/img/background1.png);
+    height: 183px;
+}
+
+.header h1,h2{
+    position: relative;
+    top: -150px;
+    left: 160px;
+    margin-bottom: 20px;
+    color: white;
+}
+.nav{
+    background-color:rgb(159, 156, 156);
+}
+
+.menu_nav {
+    display: flex;
+}
+.menu_nav li{
+    list-style-type: none;
+    padding-left: 40px;
+}
+.menu_nav li a{
+    color:cornsilk;
+    text-decoration: none;
+}
+
+.menu_nav li a:hover{
+    color: black;
+}
+.Menu{
+    display: flex;
+}
+
+article {
+    background-color: white
+
+}
+.box1{
+    flex:1;
+}
+.box1a{
+    padding:10px;
+    border:  0.25px solid rgb(67, 67, 67);
+    margin-top: 30px;
+}
+.box1b{
+    margin-top:100px;
+    border:  0.25px solid rgb(67, 67, 67);
+    padding:10px;
+}
+
+.box2{
+    flex:3;
+    border-right: 0.25px solid rgb(67, 67, 67);
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.box2 li{
+    list-style-type: none;
+}
+.box2a{
+    padding-top: 60px;
+    
+}
+.box2b{
+    margin-top: 180px;
+    
+}
+.box2 .a{
+    margin-top: 15px;
+}
+.box3{
+    padding-left: 10px;
+    flex:2;
+}
+.box3a{
+    padding-top: 20px;
+    color: rgb(254, 173, 186);
+}
+.box3b{
+    padding-top: 40px
+}
+.box3a li{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    list-style-type: none;
+    border-bottom: 0.25px solid rgb(67, 67, 67);
+}
+.box3b li{
+    list-style-type: none;
+}
+.box3a p{
+    padding-top: 40px;
+    font-size: 30px;
+}
+.box3b p{
+    color: rgb(254, 173, 186); 
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+footer{
+    background-color: rgb(159, 156, 156);
+    margin-top: 20px;
+    height: 30px;
+    color: white;
+}

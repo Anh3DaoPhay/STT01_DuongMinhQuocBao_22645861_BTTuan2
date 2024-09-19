@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width : 1600px;
+    margin : 0 auto;
+    border: 2px solid #aaa;
+}
+.cap{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: brown;
+    text-shadow: 20px 20px 10px rgb(183, 129, 129);
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color:rgb(235, 139, 139) ;
+    font-size: 20px;
+    padding-left: 50px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    
+}
+.nav li{
+    padding-left: 100px
+}
+.nav li a{
+    color: white;
+    text-decoration: none;
+    padding-right: 80px;
+    border-right: 2px solid black;
+}
+
+.title{
+    background-color:rgb(235, 139, 139);
+    color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+.menu1 {
+    padding-left: 50px;
+    list-style-type:disc;
+}
+
+.menu2 {
+    padding-left: 50px;
+    list-style-type:disc;
+}
+.form{
+    margin-top: 5px;
+    display: flex;
+}
+.menu{
+    margin-top: 10px;
+    flex-basis: 50%;
+}
+.Cafe{
+    flex-basis: 25%;
+}
+.Cafe ul{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+.Cafe li{
+    padding-top: 5px;
+    text-align: center;
+    height: 30px;
+    border-radius: 50px;
+    background-color: rgb(235, 139, 139);
+    margin-top: 10px;
+    color: white;
+}
+.Cafe img{
+    margin-top: 20px;
+    border-radius: 100%;
+}
+.event{
+    margin-top: 10px;
+    flex-basis: 25%;
+}
+.footer{
+    height: 70px;
+    margin-top: 10px;
+    background-color: rgb(235, 139, 139);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu a{
+    color: red;
+}
+.table_sec{
+    width: 450px;
+    height: 50px;
+
+}
+td{
+    padding: 15px
+}
+.table_but{
+    width: 50px;
+    height: 30px;
+}

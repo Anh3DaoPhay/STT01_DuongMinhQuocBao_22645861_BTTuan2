@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+
+#div_body {
+    border: 2px solid gray;
+    width: 1060px;
+    height: 950px;
+}
+
+header {
+    border-bottom: 3px solid rgb(197, 127, 35);
+    width: 98%;
+    height: 80px;
+    float: left;
+}
+
+section {
+    border: 1px;
+    width: 80%;
+    height: 800px;
+    margin-left: 20%;
+    margin-top: 100px;
+}
+
+nav {
+    border: 2px;
+    width: 17.5%;
+    height: 865px;
+    background-image: url(/Tuan2/img/back.jpg);
+    float: left;
+}
+
+footer {
+    border-top: 2px orange solid;
+    height: 48px;
+    width: 80%;
+    margin-left: 20%;
+}
+
+#article_1{
+    border: 1px;
+    width: 100%;
+    height: 25%;
+
+}
+
+.menu_nav li{
+    line-height: 30px;
+    width: 165px;
+    list-style: none;
+    text-align: start;
+    margin-left: -20%;
+    border-bottom: 2px dashed rgb(212, 163, 28);
+    padding: 2px;
+}
+
+.menu_nav li a{
+    color:rgb(100, 24, 171);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu_nav li a:hover{
+    color: black;
+    
+}
+
+#article_section{
+    width: 95%;
+    height: 90%;
+    color: brown;
+    background-image: url(/Tuan2/img/sample.jpg) ;
+    background-size: cover;
+    
+}
+
+.div_1{
+    width: 25%;
+    height: 27%;
+    border: 3px solid gray;
+    box-shadow: -6px -6px 6px grey;
+    background-color: rgb(249, 249, 195);
+    position: relative;
+    left: 350px;
+    margin-top: -99.5%;
+    margin-left: 27%;
+    font-size: 17px;
+}
+
+.div_2{
+    width: 25%;
+    height: 18%;
+    border: 3px solid gray;
+    box-shadow: -6px -6px 6px grey;
+    background-color: rgb(249, 249, 195);
+    position: relative;
+    top: 150px;
+    right: 350px;
+    margin-left: 35%;
+    margin-top: -1%;
+    font-size: 17px;
+
+}
+
+.div_3{
+    width: 25%;
+    height: 18%;
+    border: 3px solid gray;
+    box-shadow: -6px -6px 6px grey;
+    background-color: rgb(249, 249, 195);
+    position: relative;
+    top: 200px;
+    left: 350px;
+    margin-left: 25%;
+    margin-top: 0%;
+    font-size: 17px;
+}
